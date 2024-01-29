@@ -1032,6 +1032,7 @@ register_conv_template(
     Conversation(
         name="llama-2",
         system_template="[INST] <<SYS>>\n{system_message}\n<</SYS>>\n\n",
+        system_message="A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.",
         roles=("[INST]", "[/INST]"),
         sep_style=SeparatorStyle.LLAMA2,
         sep=" ",
